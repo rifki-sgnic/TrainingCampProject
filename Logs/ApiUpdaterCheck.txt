@@ -1,0 +1,10 @@
+[api-updater (non-obsolete-error-filter)] 1/12/2022 4:24:25 AM : Starting E:/Kuliah/Dicoding/Augmented Reality/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 1559.3418ms
+moved types parse time: 74ms
+candidates parse time : 1ms
+C# parse time         : 950ms
+candidates check time : 38ms
+console write time    : 1ms
+

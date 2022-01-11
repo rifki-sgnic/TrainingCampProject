@@ -109,19 +109,19 @@ public class WeaponScript : MonoBehaviour
                 Target target = hit.collider.GetComponent<Target>();
                 if (target != null)
                 {
-                    target.TakeDamage();
+                    target.TakeDamage(damage);
                 }
             }
         }
 
-        Destroy(currentBullet, 1f);
+        Destroy(currentBullet, 0.5f);
 
         blackPistol.GetComponent<Animator>().Play("FirePistol");
         pistolShot.Play();
 
         //Graphics
         GameObject bulletHole = Instantiate(bulletHoleGraphic, hit.point, Quaternion.LookRotation(hit.normal));
-        Destroy(bulletHole, 2f);
+        Destroy(bulletHole, 0.5f);
 
         bulletsLeft--;
         bulletsShot--;
